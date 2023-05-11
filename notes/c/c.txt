@@ -1,0 +1,2 @@
+1- criando o player
+	1.1 - importando sprites
