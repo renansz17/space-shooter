@@ -20,3 +20,19 @@
 	4.1 - importando as sprites - feito
 	4.2 - criando o objeto - feito
 	4.3 - quando iniciar ele vai para baixo
+	
+	
+5 - Fazendo o inimigo 1 atirar
+	5.1 - importando sprite - feito
+	5.2	- criar o objeto - feito
+	5.3 - fazendo o tiro ir para baixo - feito
+	5.4 - fazendo ele atirar em x em x tempo - feito
+	5.5 - dando efeito no tiro - feito
+
+(criação de metódos)
+
+6 - fazendo o tiro do player acertar o inimigo - feito
+	6.1 - se destruir ao acertar o inimigo - feito
+	6.2 - criando o impacto do tiro - feito
+	6.3 - fazendo o impacto do tiro desaparecer no final da animação
+	6.4 - fazer o tiro nao criar impacto quando sair da room
