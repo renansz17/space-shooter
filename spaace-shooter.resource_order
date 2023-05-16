@@ -29,6 +29,11 @@
     {"name":"spr_player_shoot","order":1,"path":"sprites/spr_player_shoot/spr_player_shoot.yy",},
     {"name":"objPlayerShoot","order":1,"path":"objects/objPlayerShoot/objPlayerShoot.yy",},
     {"name":"objSquidShoot","order":1,"path":"objects/objSquidShoot/objSquidShoot.yy",},
+    {"name":"spr_extra_background","order":3,"path":"sprites/spr_extra_background/spr_extra_background.yy",},
     {"name":"spr_shoot_impact","order":1,"path":"sprites/spr_shoot_impact/spr_shoot_impact.yy",},
+    {"name":"spr_glow_shoot","order":5,"path":"sprites/spr_glow_shoot/spr_glow_shoot.yy",},
+    {"name":"spr_glow_squid_enemy","order":6,"path":"sprites/spr_glow_squid_enemy/spr_glow_squid_enemy.yy",},
+    {"name":"spr_extra_background_2","order":4,"path":"sprites/spr_extra_background_2/spr_extra_background_2.yy",},
+    {"name":"spr_background","order":2,"path":"sprites/spr_background/spr_background.yy",},
   ],
 }

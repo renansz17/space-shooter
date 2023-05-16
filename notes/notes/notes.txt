@@ -40,12 +40,23 @@
 7 - fazendo o tiro do inimigo acertar o player
 	7.1 - destruindo o tiro do inimigo quando ele sair da room - feito
 	
-8 - destruindo o inimigo quando ele levar o tiro
+8 - destruindo o inimigo quando ele levar o tiro tudin feitro
 	8.1 - fazendo o tiro do player tambem destruir o inimigo que colidir com ele.
 	8.2 - fazer quando o inimigo for destruido criar uma explosão
 		8.2.1 - criar o objeto e a sprite
 		8.2.2 - fazendo o inimigo instanciar a explosão ao morrer
 		8.2.3 - fazendo a explosão sumir quando acabar a animação
 
-9 - pequenos ajustes
-	9.1 - fazendo o inimigo se destruir ao sair da room;
+9 - pequenos ajustes - feito
+	9.1 - fazendo o inimigo se destruir ao sair da room - feito
+	9.2 - deixando o nosso background melhor - feito
+	9.3 - deixando o tiro mais bonito
+		9.3.1 - criar sprite
+		9.3.2 - criar draw event
+		9.3.3 - se desenhar
+		9.3.4 - desenhar brilho
+		9.3.5 - alterar como a gpu processa a mistura de imagens
+		9.3.6 - criar a variavel pra mudar de cor
+		9.3.7 - usar o lerp para diminuir o tamanho
+	
+10 - Criando o background do jogo - feito

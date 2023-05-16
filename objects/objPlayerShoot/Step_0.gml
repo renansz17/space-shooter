@@ -1,14 +1,12 @@
-//para destruir algo de fora da tela poderia ser assim
-// if y <= -200 {instance_destroy()}
+//diminuindo a escala do tiro
 
-//ao colidir com o inimigo, destruir ele
+//lerp é uma função de aproximação, eu faço o meu valor chegar em outro por uma porcentagem;
+// lerp(valor que eu tenho, valor para chegar, porcentagem de aproximação);
 
-//enemyCollision = place_meeting(x, y, objSquidEnemy);
+//step 1 = 1 -10 =	5 - 10;
+//step 2 = 5 -10 =  7.5 - 10;
+//step 3 = 7,5 - 10 = 8.75 - 10;
 
-//if (enemyCollision) {
-	
-//	//destroi o inimigo
-//	instance_destroy(objSquidEnemy);
-//	//se auto destroi
-//	instance_destroy();
-//}
+//fazendo meu xscale e yscale chegar no valor original que é 1;
+image_xscale = lerp(image_xscale, 1, 0.5);
+image_yscale = lerp(image_yscale, 1, 0.5);
