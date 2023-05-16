@@ -34,5 +34,18 @@
 6 - fazendo o tiro do player acertar o inimigo - feito
 	6.1 - se destruir ao acertar o inimigo - feito
 	6.2 - criando o impacto do tiro - feito
-	6.3 - fazendo o impacto do tiro desaparecer no final da animação
-	6.4 - fazer o tiro nao criar impacto quando sair da room
+	6.3 - fazendo o impacto do tiro desaparecer no final da animação - feito
+	6.4 - fazer o tiro nao criar impacto quando sair da room - feito
+
+7 - fazendo o tiro do inimigo acertar o player
+	7.1 - destruindo o tiro do inimigo quando ele sair da room - feito
+	
+8 - destruindo o inimigo quando ele levar o tiro
+	8.1 - fazendo o tiro do player tambem destruir o inimigo que colidir com ele.
+	8.2 - fazer quando o inimigo for destruido criar uma explosão
+		8.2.1 - criar o objeto e a sprite
+		8.2.2 - fazendo o inimigo instanciar a explosão ao morrer
+		8.2.3 - fazendo a explosão sumir quando acabar a animação
+
+9 - pequenos ajustes
+	9.1 - fazendo o inimigo se destruir ao sair da room;

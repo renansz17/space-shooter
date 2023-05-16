@@ -1,5 +1,5 @@
-//fazendo ele ir para baixo
-//vspeed = 5;
+ //fazendo ele ir para baixo
+vspeed = 5;
 
 //iniciando o alarme
 alarm[0] = random_range(1, 3) * room_speed;

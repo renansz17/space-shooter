@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+//se destruindo ao sair da room
+instance_destroy(id, false);
