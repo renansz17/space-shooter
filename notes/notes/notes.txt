@@ -72,3 +72,26 @@
 		9.4.5 - criar uma variavel de cores - feito
 		
 10 - Criando o background do jogo - feito
+
+11 - criando o segundo inimigo do jogo - feito
+	11.1 - importando a sprite - feito
+	11.2 - criando o objeto dele - feito
+	11.3 - fazendo o inimigo 2 herdar os comportamentos do primeiro inimigo - feito
+	11.4 - fazendo ele mudar de direção ao chegar no meio da room - feito
+		11.4.1 - checando qual lado da room eu estou - feito
+		11.4.2 - falando se está na direita - feito
+		11.4.3 - falando se estou na esquerda - feito
+	11.5 - fazer ele mudar de direção se ele passar de 1/3 da tela - feito
+	11.6 - fazendo o inimigo parar apos mudar de direção uma vez - feito
+	11.7 - fazendo o inimigo criar o proprio tiro - feito
+12 - criando o segundo tiro do inimigo - feito
+	12.1 - importando a sprite - feito
+	12.2 - criando o objeto - feito
+	12.3 - fazendo o tiro do inimigo 1 ser pai do 2 - feito
+	12.4 - iniciar indo na direção do player - feito
+	12.5 - apontando para a direção do player - feito
+		12.5.1 - fazendo ela ganhar 90 graus - feito
+	12.6 - indo para direção do player apenas se o player existir - feito
+	
+13 - criando os inimigos proceduralmente
+14 - criando o objeto controlador do jogo
