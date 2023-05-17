@@ -50,13 +50,25 @@
 9 - pequenos ajustes - feito
 	9.1 - fazendo o inimigo se destruir ao sair da room - feito
 	9.2 - deixando o nosso background melhor - feito
-	9.3 - deixando o tiro mais bonito
-		9.3.1 - criar sprite
-		9.3.2 - criar draw event
-		9.3.3 - se desenhar
-		9.3.4 - desenhar brilho
-		9.3.5 - alterar como a gpu processa a mistura de imagens
-		9.3.6 - criar a variavel pra mudar de cor
-		9.3.7 - usar o lerp para diminuir o tamanho
-	
+	9.3 - deixando o tiro mais bonito - feito
+		9.3.1 - criar sprite - feito
+		9.3.2 - criar draw event - feito
+		9.3.3 - se desenhar - feito
+		9.3.4 - desenhar brilho - feito
+		9.3.5 - alterar como a gpu processa a mistura de imagens - feito
+		9.3.6 - criar a variavel pra mudar de cor - feito
+		9.3.7 - usar o lerp para diminuir o tamanho - feito
+	9.4 - deixando as explosões de tiro mais bonitas - feito
+		9.4.1 - criar o draw event - feito
+		9.4.2 - se desenhar - feito
+		9.4.3 - me desenhar um pouco maior - feito
+		9.4.4 -	alterar como a gpu processa a mistura de cor - feito
+		9.4.5 - criar uma variavel de cores - feito
+	9.5 - deixando as explosões do inimigo mais bonitas - feito
+		9.4.1 - criar o draw event - feito
+		9.4.2 - se desenhar - feito
+		9.4.3 - me desenhar um pouco maior - feito
+		9.4.4 -	alterar como a gpu processa a mistura de cor - feito
+		9.4.5 - criar uma variavel de cores - feito
+		
 10 - Criando o background do jogo - feito
