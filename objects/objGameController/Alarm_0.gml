@@ -1,11 +1,15 @@
 /// @description criando inimigos
-//criando as variaveis que contem as coordenadas aleatorias para criar os inimigos
-var horizontalRange = irandom_range(64, 1880);
-var verticalRange = irandom_range(-96, -1300);
 
-//criando o inimigo 1
-instance_create_layer(horizontalRange, verticalRange, "Enemies", objSquidEnemy);
+//repetindo o mesmo código
+//checando se há inimigos na tela
+if(!instance_exists(objSquidEnemy)) {
+	
+	var repeateLevel = 10 * level;
+	repeat(repeateLevel) {
+		createEnemy();
+	}
+}
 
 //reiniciando meu alarme
-alarm[0] = room_speed;
+alarm[0] = room_speed * 5;
 

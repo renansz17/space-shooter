@@ -95,8 +95,13 @@
 	
 13 - criando os inimigos proceduralmente
 	13.1 - fazer com que o objeto control crie inimigos de tempo em tempo - feito
-		13.1.1 - fazendo com que x e y seja aleatoria
-		
+		13.1.1 - fazendo com que x e y seja aleatoria - feito
+	13.2 - criando inimigos baseado no level do jogo - feito
+	13.3 - criar ondas de inimigos - feito
+	13.4 - criar as ondas apenas se n tem mais inimigos no jogo - feito
+	13.5 - criar a quantidade de inimigos com base no level - feito
+	13.6 -  impedindo q inimigos sejam criados no mesmo lugar - feito
+	
 14 - criando o objeto controlador do jogo
 	14.1 - ganhando pontos ao destruir o inimigo
 	
@@ -105,4 +110,9 @@
 	15.2 - ganhando pontos ao destruir o inimigo - feito
 	15.3 - rodando o metodo de ganhar pontos só se o objeto existir - feito
 	15.4 - fazendo com que inimigos diferentes façam o player ganhar mais pontos - feito
-	15.5 - criar uma variavel nos inimigos chamada pontos, e ela vai ter quantos pontos eles ganham
+	15.5 - criar uma variavel nos inimigos chamada pontos, e ela vai ter quantos pontos eles ganham - feito
+	
+16 - criando o sistema de level 
+	16.1 iniciando a variavel level - feito
+	16.2 - exibindo level - feito
+	16.3 - ganhando level quando eu ganhar um determinado numero de pontos
