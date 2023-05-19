@@ -27,6 +27,7 @@
     {"name":"objExplosion","order":2,"path":"objects/objExplosion/objExplosion.yy",},
     {"name":"spr_second_enemy_shoot","order":8,"path":"sprites/spr_second_enemy_shoot/spr_second_enemy_shoot.yy",},
     {"name":"spr_normal_enemy_shoot","order":6,"path":"sprites/spr_normal_enemy_shoot/spr_normal_enemy_shoot.yy",},
+    {"name":"objGameController","order":8,"path":"objects/objGameController/objGameController.yy",},
     {"name":"objSecondEnemy","order":2,"path":"objects/objSecondEnemy/objSecondEnemy.yy",},
     {"name":"spr_player_shoot","order":1,"path":"sprites/spr_player_shoot/spr_player_shoot.yy",},
     {"name":"objPlayerShoot","order":1,"path":"objects/objPlayerShoot/objPlayerShoot.yy",},

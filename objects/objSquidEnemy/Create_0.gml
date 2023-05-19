@@ -1,8 +1,11 @@
  //fazendo ele ir para baixo
-vspeed = 5;
+vspeed = 4;
 
 //iniciando o alarme
 alarm[0] = random_range(1, 3) * room_speed;
+
+//quantos pontos o inimigo dá para o player
+destroyPoints = 10;
 
 enemy_shooting = function () {
 	//se ele entrar na tela, ele pode atirar

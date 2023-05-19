@@ -46,6 +46,7 @@
     {"id":{"name":"spr_second_enemy_shoot","path":"sprites/spr_second_enemy_shoot/spr_second_enemy_shoot.yy",},},
     {"id":{"name":"spr_normal_enemy_shoot","path":"sprites/spr_normal_enemy_shoot/spr_normal_enemy_shoot.yy",},},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},},
+    {"id":{"name":"objGameController","path":"objects/objGameController/objGameController.yy",},},
     {"id":{"name":"objSecondEnemy","path":"objects/objSecondEnemy/objSecondEnemy.yy",},},
     {"id":{"name":"spr_player_shoot","path":"sprites/spr_player_shoot/spr_player_shoot.yy",},},
     {"id":{"name":"objPlayerShoot","path":"objects/objPlayerShoot/objPlayerShoot.yy",},},
