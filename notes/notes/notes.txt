@@ -116,3 +116,5 @@
 	16.1 iniciando a variavel level - feito
 	16.2 - exibindo level - feito
 	16.3 - ganhando level quando eu ganhar um determinado numero de pontos
+	
+17 - criando os powerups do jogador	
