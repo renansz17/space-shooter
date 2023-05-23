@@ -115,6 +115,29 @@
 16 - criando o sistema de level 
 	16.1 iniciando a variavel level - feito
 	16.2 - exibindo level - feito
-	16.3 - ganhando level quando eu ganhar um determinado numero de pontos
+	16.3 - ganhando level quando eu ganhar um determinado numero de pontos - feito
 	
-17 - criando os powerups do jogador	
+17 - deixar o tiro do player "automático"
+	17.1 - criando o evento do tiro - feito
+18 - dando leveis para o tiro do player - feito
+	18.1 -criando o sistema de levels - feito
+	18.2 - criando o sistema de debug - feito 
+	18.3 - fazendo o player dar o segundo tiro no lvl 2 - feito
+	
+19 - criando o segundo tiro
+	19.1 - importando sprite e obj - feito
+	19.2 - falar q ele é filho do tiro1 - feito
+	19.3 - ajeitando os efeitos - feito
+	19.4 - criando dois tiros por vez, um em cada - feito
+	19.5 - fazendo o tiro mudar de direção
+		19.5.1 - fazendo o tiro ganhar uma direção - feito
+		19.5.2 - fazendo o tiro inverter a direção horizontal - feito
+	19.6 - criando o terceiro level do tiro - feito
+		19.6.1 - criando o primeiro e o segundo tiro - feito
+	19.7 - criando o 4 level do tiro - feito
+		19.7.1 - adicionando direções - feito
+	19.8 - criando o level 5 do tiro - feito
+	
+20 - criando o sistema de powerups
+	20.1 - criando a sprite do power up
+	20.2 - criando o obj do power up
