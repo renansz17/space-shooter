@@ -13,6 +13,9 @@ level = 1;
 //quantos pontos precisa para o proximo level
 nextLevel = 100;
 
+//variavel de game over
+gameOverSeq = noone;
+
 ///@method addPoints(pointsToAdd)
 addPoints = function (pointsToAdd) {
 	points += pointsToAdd;

@@ -2,13 +2,14 @@
 //espera tiro - 10% - limite = 20;
 //level tiro - 1 - limite = 5;
 
-
 velocity = 5;
 shootLevel = 1;
 //fazendo o metodo de atirar
 //ativando o alarm pelo step, a cada 1 seg 
 // se apertei e espaço e o alarme nao foi ativado
 waiting_shoot_time = room_speed;
+//vida do player
+life = 3;
 
 //y do player
 
@@ -73,6 +74,29 @@ shooting = function () {
 }
 
 //criando o powerup do player
-powerUp = function (number) {
-	
+///@method powerUp(chance)
+powerUp = function (chance) {
+	if (chance >= 90 && shootLevel < 5) {
+		//aumentando o levle do tiro
+		shootLevel++;
+	} else if (chance >= 45 && waiting_shoot_time > 20) {
+		//diminuindo a espera do tiro
+		waiting_shoot_time *= 0.9;
+	} else {
+		//aumentando velocidade do player
+		if (velocity < 10) {
+			velocity += 0.5;
+		}
+	}
 }
+	
+///@method decreaseLife()
+decreaseLife = function () {
+	//fazendo o player perder vida
+	if(life > 0) {
+		life--;
+	} else {
+		instance_destroy();
+	}
+}
+

@@ -1,11 +1,18 @@
 //movendo para esquerda
-var up, down, left, right;
+var up, down, left, right, shield;
 
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
+shield = keyboard_check_pressed(ord("E"));
 
+//criando o escudo
+if (shield) {
+	var escudo = instance_create_layer(x, y, "Shield", objShield);
+	//dando o id do player ao escudo
+	escudo.target = id;
+}
 
 //movendo o y com base no resultado da conta para saber se to indo para cima ou para baix, direita ou esquerda
 //ai multiplicamos pela velocity
@@ -22,6 +29,10 @@ shooting();
 
 //ferramentas de debug
 //fazer com o que level suba sempre que eu apertar setinha pra cima
+//morrendo
+//if (life <= 0) {
+//	instance_destroy();
+//}
 
 if(keyboard_check_pressed(vk_up)) {
 	

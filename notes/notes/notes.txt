@@ -139,5 +139,55 @@
 	19.8 - criando o level 5 do tiro - feito
 	
 20 - criando o sistema de powerups
-	20.1 - criando a sprite do power up
-	20.2 - criando o obj do power up
+	20.1 - criando a sprite do power up - feito
+	20.2 - criando o obj do power up - feito
+	20.3 - criar a chance do power up - feito
+	20.4 - criar o metódo do level up no player - feito
+	20.5 - fazer item colidir com o player e dar o level up pro player - feito
+	20.6 - destruir o item ao colidir com player - feito
+	20.7 - criando o impacto do tiro ao se destruir - feito
+	20.8 - fazendo os inimigos droparem o power up com uma chance - feito
+	20.9 - fazendo o item se mover - feito
+	20.10 - dando um efeito a mais nele
+	20.11 - impedindo que o item saia da tela
+	20.12 - fazendo o powerUp sumir
+	
+21 - escudo do player - feito
+	21.1 - criando sprite - feito
+	21.2 - criando o objeto - feito
+	21.3 - fazendo o player criar o escudo ao apertar e -feitoo
+	21.4 - criar uma layer para o escudo - feito
+	21.5 - fazendo o escudo "seguir" o player - feito
+	21.5 - criando fazendo o escudo ficar na msm posição q o player - feito
+		21.5.1 - corrigindo o delay
+	21.6 - destruindo os tiros / destruindo inimigos - feito
+	21.7 - aumentando o escudo - feito
+	21.8 - animando o escudo - feito
+		21.8.1 - fazendo ele parar a animação no final - feito
+		21.8.2 - fazendo ele voltar a imagem aos poucos - feito
+			21.8.2.1 - ao final da animação ativar um alarme em 2s - feito
+			21.8.2.3 - ao executar o alarme ele volta uma imagem - feito
+			21.8.2.4 - se chegar no image_index = 0, se destruir no proximo alarm - feito
+	21.9 - melhorando o efeito no escudo
+		21.9.1 - dando transparencia para o escudo - feito
+		21.9.2 - dando blend mode para ele - feito
+		
+22 - ajustes gerais
+	22.1 - ajustando as mascaras de colisão - feito
+	22.2 - dando colisão entre os players e inimigos - feito
+	
+23 - fazendo o player morrer
+	23.1  - dando vida ao player - feito
+	23.2- fazendo ele morrer se a vida for igual ou menor a zero - feito
+	23.3 - fazendo ele criar a explosão - feito
+	23.4 - fazendo metodo de perder vida - feito
+	23.5 - exibindo a vida do player - feito
+	23.6 - fazendo o inimigo perder vida com os inimigos - feito
+	23.7 - fazendo a tela de gameover
+		23.7.1 - criando sequencia do gameover - feito
+		23.7.2 - instanciando a sequencia na room
+			23.7.2.1 - checando se o obbjeto existe pelo objeto control - feito
+			23.7.2.1 - se o player n existir, crio minha sequencia - feito
+		23.7.3 - reiniciando ao apertar enter
+		
+24 - screenshake!

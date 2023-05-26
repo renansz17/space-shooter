@@ -1,5 +1,9 @@
 event_inherited();
-destroyPoints = 20; 
+//chance de dropar power up
+dropChance = 30;
+
+//pontos que é dado ao destruir
+destroyPoints = 20;
 
 //criando minha variavel de controle para saber se estou me movendo para os lados
 canMove = true;

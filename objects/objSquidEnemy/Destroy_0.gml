@@ -7,3 +7,6 @@ instance_create_layer(x, y, layer, objExplosion);
 if(instance_exists(objGameController)) {
 	objGameController.addPoints(destroyPoints);
 }
+
+//dropando o item
+dropPowerUp(dropChance);
