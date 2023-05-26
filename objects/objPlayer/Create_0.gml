@@ -10,6 +10,8 @@ shootLevel = 1;
 waiting_shoot_time = room_speed;
 //vida do player
 life = 3;
+//escudos dom player
+shields = 3;
 
 //y do player
 
@@ -95,8 +97,12 @@ decreaseLife = function () {
 	//fazendo o player perder vida
 	if(life > 0) {
 		life--;
+		//dando um screenshake se levar dano
+		screenshake(5);
 	} else {
 		instance_destroy();
+		//dando um screenshake se levar dano
+		screenshake(20);
 	}
 }
 

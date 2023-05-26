@@ -45,6 +45,7 @@
     {"name":"spr_background","order":2,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_game_over","order":11,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"objSecondEnemyShoot","order":3,"path":"objects/objSecondEnemyShoot/objSecondEnemyShoot.yy",},
+    {"name":"objScreenshake","order":4,"path":"objects/objScreenshake/objScreenshake.yy",},
     {"name":"spr_second_player_shoot","order":9,"path":"sprites/spr_second_player_shoot/spr_second_player_shoot.yy",},
   ],
 }

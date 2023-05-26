@@ -1,3 +1,6 @@
+//randomizando o jogo
+randomize();
+
 //iniciando meu alarme para criar inimigos
 
 alarm[0] = room_speed;
@@ -32,8 +35,9 @@ addPoints = function (pointsToAdd) {
 //criando metodo para gerar inimigos
 createEnemy = function () {
 	//criando as variaveis que contem as coordenadas aleatorias para criar os inimigos
+	//aumentando o limite com base no level do jogo
 	var horizontalRange = irandom_range(64, 1880);
-	var verticalRange = irandom_range(-96, -1300);
+	var verticalRange = irandom_range(-96, -1504 - (level * 500));
 
 	//a chance de um inimigo mais forte depende do level
 	var chance = random_range(0, level);

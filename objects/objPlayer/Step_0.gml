@@ -8,10 +8,12 @@ right = keyboard_check(ord("D"));
 shield = keyboard_check_pressed(ord("E"));
 
 //criando o escudo
-if (shield) {
+if (shield && shields > 0) {
 	var escudo = instance_create_layer(x, y, "Shield", objShield);
 	//dando o id do player ao escudo
 	escudo.target = id;
+	//diminuindo a quantidade de escudos
+	shields--;
 }
 
 //movendo o y com base no resultado da conta para saber se to indo para cima ou para baix, direita ou esquerda

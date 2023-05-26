@@ -10,3 +10,6 @@ if(instance_exists(objGameController)) {
 
 //dropando o item
 dropPowerUp(dropChance);
+
+//criando o screenshake
+screenshake(10);

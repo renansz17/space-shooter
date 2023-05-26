@@ -171,10 +171,16 @@
 	21.9 - melhorando o efeito no escudo
 		21.9.1 - dando transparencia para o escudo - feito
 		21.9.2 - dando blend mode para ele - feito
-		
+	21.10 - limitando os escudos do player - feito
+		21.10.1 - criando a variavel de qt dos escudos - feito
+		21.10.2 - fazendo o player criar os escudos se forem maior que 0 - feito
+	21.11 - exibindo o shield - feito
+	
 22 - ajustes gerais
 	22.1 - ajustando as mascaras de colisão - feito
 	22.2 - dando colisão entre os players e inimigos - feito
+	22.3 - ajeitando a transparencia do power up - feito
+	22.4 - melhorando a dispersão do inimigo conforme o level
 	
 23 - fazendo o player morrer
 	23.1  - dando vida ao player - feito
@@ -191,3 +197,15 @@
 		23.7.3 - reiniciando ao apertar enter
 		
 24 - screenshake!
+	24.1 - criar um objeto para a tela se mexer - feito
+	24.2 - fazendo a tela tremer - feito
+	24.3 - enfraquecendo o screenshake - feito
+	24.4 - destruindo o screenshake depois de um tempo - feito
+	24.5 - garantindo q ao se destruir, a posição do viewport volte ao original - feito
+	24.6 - criando o screenshake sempre que um inimigo for destruido - feito
+	24.7 - criando uma função para que qualquer um possa criar um screenshake e definir a força dele - feito
+	24.8 - criando o screenshake do player - feito
+
+25 - ajustes gerais
+	25.1 - randomizando o jogo - feito
+	25.2 - impedindo o player de sair da tela
