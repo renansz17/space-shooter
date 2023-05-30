@@ -1,6 +1,6 @@
-//desenhar a vida do usuário
+ //desenhar a vida do usuário
 
-var heightGui = display_get_gui_height();
+//var heightGui = display_get_gui_height();
 
 //desenhando a navezinha para ser a vida do usuário
 //desenhando a quantidade de vida que o player tem

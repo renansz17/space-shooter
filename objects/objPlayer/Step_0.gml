@@ -7,13 +7,9 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 shield = keyboard_check_pressed(ord("E"));
 
-//criando o escudo
-if (shield && shields > 0) {
-	var escudo = instance_create_layer(x, y, "Shield", objShield);
-	//dando o id do player ao escudo
-	escudo.target = id;
-	//diminuindo a quantidade de escudos
-	shields--;
+//criando o escudo se apertar e, tiver escudos disponiveis e for noone,
+if (shield && shields > 0 && !myShield) {
+	createShield();
 }
 
 //movendo o y com base no resultado da conta para saber se to indo para cima ou para baix, direita ou esquerda
@@ -21,6 +17,11 @@ if (shield && shields > 0) {
 
 y += (down - up) * velocity;
 x += (right - left) * velocity;
+
+//nao deixando o player sair da tela
+//clamp é uma função que checa os valores se estao entre eles
+x = clamp(x, 64, 1856);
+y = clamp(y, 64, 1024);
 
 //pode ser desse jeito tbm
 //y += (down * velocity) - (up  * velocity);

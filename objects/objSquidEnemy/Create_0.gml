@@ -26,7 +26,7 @@ enemy_shooting = function () {
 dropPowerUp = function (chance) {
 	var value = random(100);
 	//dropando o item se o valor for menor que a chance	
-	if (value < chance) {
+	if (value < chance && y > 96) {
 		instance_create_layer(x, y, "Shoots", objPowerUp);
 	}
 }

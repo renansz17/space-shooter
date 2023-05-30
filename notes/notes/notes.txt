@@ -180,7 +180,11 @@
 	22.1 - ajustando as mascaras de colisão - feito
 	22.2 - dando colisão entre os players e inimigos - feito
 	22.3 - ajeitando a transparencia do power up - feito
-	22.4 - melhorando a dispersão do inimigo conforme o level
+	22.4 - melhorando a dispersão do inimigo conforme o level - feito
+	22.5 - impedindo q o player cria mais de 1 escudo por vez
+		22.1 - fazendo o player só criar o escudo, se o meu escudo for noone
+	22.6 - impedindo q o player leve dano quando estiver com o escudo - feito
+		22.6.1 - fazendo o escudo avisar o alvo dele, que o meu escudo do alvo é noone - feito
 	
 23 - fazendo o player morrer
 	23.1  - dando vida ao player - feito
@@ -208,4 +212,56 @@
 
 25 - ajustes gerais
 	25.1 - randomizando o jogo - feito
-	25.2 - impedindo o player de sair da tela
+	25.2 - impedindo o player de sair da tela - feito
+	25.3 - fazendo os inimigos droparem itens depois de certa posição - feito
+	25.4 - melhorando o sistema de level - feito
+	25.5 - ganhar pontos caso o powerup do tiro e esteja no maximo - feito
+
+26 - Boss !
+	26.1 - importando sprite - feito 
+	26.2 - criando o objeto - feito
+	26.3 - definindo os estados do boss - feito
+	26.4 - criando o primeiro estado do boss (criar tiro 2 enquanto fica parado)
+		26.4.1 - fazendo o boss criar o tiro 2 do canhaoo do meio - feito
+		26.4.2 - criando um intervalo entre tiros boss - feito
+		26.4.3 - criando um metódo do estado 1 - feito
+		26.4.4 - fazendo ele trocar de estado depois de um tempo
+	26.5 - criando o segundo estado do boss
+		26.5.1 - fazendo o boss dar o tiro 1 dos canhoes pequenos ao mesmo tempo - feito
+		26.5.2 - criando o intervalo dos tiros - feito
+		26.5.3 - fazendo o boss se mover para os lados - feito
+		26.5.4 - criando o metódo desse estado
+	26.6 - criando o terceiro estado
+		26.6.1 - criando o tiro 2 do canhão - feito
+		26.6.2 - criando o tiro 1 dos canhões menores - feito
+		26.6.3 - criando o tiro 1 e 2 em tempos diferentes - feito
+		26.6.4 - criando do estado 3 - feito
+	26.7 - criando a vida do boss - feito
+		26.1 - iniciando variavel de vida - feito
+		26.2 - fazendo o boss levar tiro - feito
+	26.8 - criando o quarto estado do boss
+		26.8.1 - importar sprite - feito
+		26.8.2 - iniciando o quarto estado, fazendo com que o boss tenha a sprite escura - feito
+		26.8.3 - fazendo o boss n levar dano enquanto estiver nesse estado - feito
+		26.8.4 - fazendo o boss ter a sprite padrao dele se n estiver no estado 4 - feito
+		26.8.5 - criando o objeto do minion - feito
+		26.8.6 - criando o tiro do minion do boss que segue o boss e cura ele - feito
+		26.8.7 - fazendo o minion atirar - feito
+		26.8.8 - indo na direção do boss - feito
+		26.8.9 - fazendo os minions iniciarem transparentes, e depois ficares visivei - feito
+		26.8.10 - fazendo os minions levarem dano - feito
+		26.8.11 - fazendo os minions perderem 1 de vida - feito
+		26.8.12 - dando 10 de vida para o minions - feito
+		26.8.13 - fazendo o minion morrer - feito
+		26.8.14 - criando explosão ao morrer - feito
+		26.8.15 - melhorando feedback ao player
+		26.8.16 - alterando os efeitos do minion
+			26.8.16.1 - fazendo a escala aumentando e diminuindo
+		 
+		
+		
+	varios estados do boss
+	fase invulneravel com recuperação de vida
+	fase que cria minions agressivos
+
+27 - animação da chega do boss

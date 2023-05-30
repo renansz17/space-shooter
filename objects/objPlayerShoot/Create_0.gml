@@ -1,4 +1,4 @@
-vspeed = -10;
+vspeed = -15;
 
 //dando efeito ao aumentar o tamanho do tiro
 image_xscale = 2;

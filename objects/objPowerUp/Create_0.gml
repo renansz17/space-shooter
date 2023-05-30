@@ -12,9 +12,13 @@ powerUpChance = random(100);
  
  //dependendo da cor , a cor vai ser diferente
  if(powerUpChance >= 90) {
+	//tiro
 	powerUpColor = c_red;
  } else if(powerUpChance >= 45) {
+	
+	//cadencia tiro
 	powerUpColor = c_yellow;
- } else { 
-	powerUpColor = c_aqua
+ } else {
+	 //velocidade
+	powerUpColor = c_lime;
 }

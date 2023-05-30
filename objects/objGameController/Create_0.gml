@@ -21,7 +21,8 @@ gameOverSeq = noone;
 
 ///@method addPoints(pointsToAdd)
 addPoints = function (pointsToAdd) {
-	points += pointsToAdd;
+	//ganhando multiplica a quantidade de pontos de acordo com o level
+	points += pointsToAdd * level;
 	
 	//ganhando level se os pontos forem maior que o level
 	if (points >= nextLevel) {
@@ -29,6 +30,19 @@ addPoints = function (pointsToAdd) {
 		level++;
 		//multiplicando a quantidade de pontos para o prox level
 		nextLevel *= 2;
+		
+		/*
+		 1 = 0
+		 2 = 100
+		 3 = 200
+		 4 = 400
+		 5 = 800
+		 6 = 1600
+		 7 = 3200
+		 8 = 6400
+		 9 = 12800
+		 10 = 25600
+		*/
 	}
 }
 

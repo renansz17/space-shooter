@@ -12,6 +12,8 @@ waiting_shoot_time = room_speed;
 life = 3;
 //escudos dom player
 shields = 3;
+//shield
+myShield = noone;
 
 //y do player
 
@@ -78,24 +80,37 @@ shooting = function () {
 //criando o powerup do player
 ///@method powerUp(chance)
 powerUp = function (chance) {
-	if (chance >= 90 && shootLevel < 5) {
+	if (chance >= 90) {
 		//aumentando o levle do tiro
-		shootLevel++;
-	} else if (chance >= 45 && waiting_shoot_time > 20) {
+		if (shootLevel < 5 ){
+			shootLevel++;
+		} else {
+			//caso já esteja no level máximo, eu ganho pontos
+			addingPoints(100);
+		}
+	} else if (chance >= 45) {
 		//diminuindo a espera do tiro
-		waiting_shoot_time *= 0.9;
+		if (waiting_shoot_time > 15) {
+			waiting_shoot_time *= 0.9;
+		} else {
+			//caso eu tenha o max de powerup
+			addingPoints(100);
+		}
 	} else {
 		//aumentando velocidade do player
 		if (velocity < 10) {
 			velocity += 0.5;
+		} else {
+			//caso já esteja no level máximo, eu ganho pontos
+			addingPoints(10);
 		}
 	}
 }
 	
 ///@method decreaseLife()
 decreaseLife = function () {
-	//fazendo o player perder vida
-	if(life > 0) {
+	//fazendo o player perder vida e só posso perder vida se meu escudo é noone
+	if(life > 0 && !myShield) {
 		life--;
 		//dando um screenshake se levar dano
 		screenshake(5);
@@ -106,3 +121,13 @@ decreaseLife = function () {
 	}
 }
 
+createShield = function () {
+	var shield = instance_create_layer(x, y, "Shield", objShield);
+	//dando o id do player ao escudo
+	shield.target = id;
+	//diminuindo a quantidade de escudos
+	//avisando q o escudo é o meu escudo
+	myShield = shield;
+	shields--;
+
+}
