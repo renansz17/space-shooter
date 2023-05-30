@@ -23,11 +23,8 @@ maxLife = 2000;
 life = maxLife;
 //dando a sprite padrão para o boss
 //sprite_index = spr_boss;
-//metódo parar criar o tiro 1
-//criando os minions
-//instance_create_layer(64, 608, "Boss", objMinion);
-//instance_create_layer(1856, 608, "Boss", objMinion);
 
+//metódo parar criar o tiro 1
 createShootTwo = function () {
 	instance_create_layer(x, y + 80, "Shoots", objSecondEnemyShoot);
 }
@@ -99,5 +96,9 @@ state3 = function() {
 state4 = function () {
 	//trocando a sprite do boss
 	sprite_index = spr_brigthness_boss;
+	
+	//criando os minions
+	var minionLeft = instance_create_layer(64, 672, "Enemies", objMinion);
+	var minionRight instance_create_layer(1856, 672, "Enemies", objMinion);
 
 }

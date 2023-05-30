@@ -6,3 +6,5 @@ image_alpha = 0;
 
 scale = 1;
 valueToIncreaseScale = 0.01;
+
+firstShoot = false;

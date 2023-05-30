@@ -254,10 +254,12 @@
 		26.8.12 - dando 10 de vida para o minions - feito
 		26.8.13 - fazendo o minion morrer - feito
 		26.8.14 - criando explosão ao morrer - feito
-		26.8.15 - melhorando feedback ao player
-		26.8.16 - alterando os efeitos do minion
-			26.8.16.1 - fazendo a escala aumentando e diminuindo
-		 
+		26.8.15 - melhorando feedback ao player - feito
+			26.8.15.1 - fazendo ele ficar transparente conforme leva tiro - feito
+		26.8.16 - alterando os efeitos do minion - feito
+			26.8.16.1 - fazendo a escala aumentando e diminuindo - feito
+		26.8.16 - fazendo o boss criar os minions ao entrar no estado 4
+			26.8.17 - criando os minions no angulo certo - feito
 		
 		
 	varios estados do boss
