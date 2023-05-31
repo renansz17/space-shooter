@@ -8,3 +8,9 @@ scale = 1;
 valueToIncreaseScale = 0.01;
 
 firstShoot = false;
+
+//checando se eu colidi com outro minion
+if (place_meeting(x, y, objMinion)) {
+	//se eu colidi eu subo 60 pixels
+	y -= 128;
+}

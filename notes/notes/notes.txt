@@ -259,7 +259,11 @@
 		26.8.16 - alterando os efeitos do minion - feito
 			26.8.16.1 - fazendo a escala aumentando e diminuindo - feito
 		26.8.16 - fazendo o boss criar os minions ao entrar no estado 4
-			26.8.17 - criando os minions no angulo certo - feito
+			26.8.16. - criando os minions no angulo certo - feito
+			26.8.16.2 - fazendo com o que minion cheque se foi criadode outro minion, (se sim ele muda o y em 60 ) feito
+			26.8.16.3 - fazendo com que ele crie só uma vez os minions - feito
+			26.8.16.4 - fazendo ele criar minions saindo do estado quatro - feito
+			26.8.16.5 - fazendo ele chegar no estado 4 se a vida atual for menor ou metade do que a vida total
 		
 		
 	varios estados do boss

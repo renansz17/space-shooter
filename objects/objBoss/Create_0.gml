@@ -6,8 +6,8 @@ Estado 3 = parado intercalando entre tiro 1 e tiro 2
 Estado especial = ficar invulneravel enquanto cria dois minions para recuperar a vida
 estado especial 2 = 
 */
-//actualState = choose("state1", "state2", "state3");
-actualState = "state4";
+actualState = choose("state1", "state2", "state3");
+//actualState = "state4";
 
 shootDelay = room_speed / 2;
 waitingShoot = 0;
@@ -23,6 +23,9 @@ maxLife = 2000;
 life = maxLife;
 //dando a sprite padrão para o boss
 //sprite_index = spr_boss;
+
+//variavel para ver se o boss tem minions
+hasMinions = false;
 
 //metódo parar criar o tiro 1
 createShootTwo = function () {
@@ -96,9 +99,14 @@ state3 = function() {
 state4 = function () {
 	//trocando a sprite do boss
 	sprite_index = spr_brigthness_boss;
-	
-	//criando os minions
-	var minionLeft = instance_create_layer(64, 672, "Enemies", objMinion);
-	var minionRight instance_create_layer(1856, 672, "Enemies", objMinion);
 
+	
+	//criando os minions esquerda e direita
+	if (!hasMinions) {
+		instance_create_layer(64, 672, "Enemies", objMinion);
+		instance_create_layer(1856, 672, "Enemies", objMinion);
+		
+		hasMinions = true;
+	}
+	//minionLeft.image_angle = 270; caso eu quisesse deixar eles de lado
 }

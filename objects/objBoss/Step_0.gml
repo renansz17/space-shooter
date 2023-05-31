@@ -13,12 +13,18 @@ if (keyboard_check(vk_enter)) {
 //alterando os estados
 //diminuindo a espera do estado
 waitingState--;
-//if (waitingState <= 0) {
-//	//vou escolher um outro estado
-//	actualState = choose("state1", "state2", "state3");
-//	//fazendo o espera estado ter um valor alto de novo
-//	waitingState = stateDelay;
-//}
+if (waitingState <= 0) {
+	//vou escolher um outro estado se o boss tiver mais da metade da hp
+	if (life >= maxLife / 2) {
+		actualState = choose("state1", "state2", "state3");
+	} else {
+		actualState = choose("state1", "state2", "state3","state4");
+	}
+	//fazendo o espera estado ter um valor alto de novo
+	waitingState = stateDelay;
+	//pode criar o minion
+	hasMinions = false;
+}
 
 //iniciando o estado 1 
 if (actualState == "state1") {
