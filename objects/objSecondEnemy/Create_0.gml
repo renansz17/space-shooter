@@ -1,6 +1,6 @@
 event_inherited();
 //chance de dropar power up
-dropChance = 30;
+dropChance = 35;
 
 //pontos que é dado ao destruir
 destroyPoints = 20;
@@ -13,5 +13,7 @@ enemy_shooting = function () {
 	//se ele entrar na tela, ele pode atirar
 	if (y > 0) {
 		instance_create_layer(x - 3, y + sprite_height/3,"Shoots", objSecondEnemyShoot);
+		//som do tiro
+		audio_play_sound(sfx_laser1, 1, false);
 	}
 }

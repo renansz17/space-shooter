@@ -16,6 +16,10 @@ if(!instance_exists(objSquidEnemy)) {
 		if (!bossCreated) {
 			layer_sequence_create("BossArrive", 960, 512, sqBossArrive);
 			bossCreated = true;
+			
+			//parando de tocar a musica
+			audio_stop_all();
+			
 		}
 	}
 }

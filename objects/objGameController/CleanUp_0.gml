@@ -7,3 +7,6 @@
 if (points > global.maxPoints) {
 	global.maxPoints = points;
 }
+
+//parando todos os sons
+audio_stop_all();

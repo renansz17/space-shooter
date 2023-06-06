@@ -14,7 +14,7 @@ points = 0;
 //iniciando o sistema de level
 level = 1;
 //quantos pontos precisa para o proximo level
-nextLevel = 1;
+nextLevel = 100;
 
 //variavel de game over
 gameOverSeq = noone;

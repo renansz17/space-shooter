@@ -331,3 +331,24 @@
 	33.9 - criar um botão para voltar - feito
 	33.10 - criando uma fonte para ui - feito
 	33.11 - fazendo na hora da exibição, ele crescer até a maior pontuação - feito
+
+34 - ajustes gerais
+	34.1 - garantindo q o jogo é aleatorio - feito
+	34.2 - ajustando o nome do jogo
+
+35 - criando os sons do jogos - feito
+	35.1 - importando sons do  - feito
+	35.2 - criando o som de explosão - feito
+	35.3 - criando o som do tiro - feito
+	35.4 - criando o som do tiro do inimigo - feito
+	35.5 - criando o som do tiro do boss - feito
+	35.6 - criando som do escudo - feito
+	35.7 - criando o som de lose - feito
+	35.8 - criando som quando o tiro do inimigo bater no escudo do player - feito
+	35.9 - criando musica do jogo - feito 
+	35.10 - criando a música do boss - feito
+		35.10.1 - parar de tocar musica do level - feito
+		35.10.2 - tocando a boss figth - feito
+		
+36 - polindo o jogo
+	36.1 - tirando os debugs

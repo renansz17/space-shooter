@@ -50,6 +50,9 @@ shooting = function () {
 	//ativando o alarme	
 	alarm[0] = waiting_shoot_time;
 	
+	//criando o som do tiro
+	audio_play_sound(sfx_laser2, 1, false);
+	
 	//criando o tiro o tiro na hora que eu apertei espaço
 	//e depois atirar novamente
 	

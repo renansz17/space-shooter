@@ -17,6 +17,5 @@ if (isHalfScreen && canMove == true) {
 		hspeed = 4;
 		//avisando q ele n pode mais se mover
 		canMove = false;
-		show_debug_message("a")
 	}
 }

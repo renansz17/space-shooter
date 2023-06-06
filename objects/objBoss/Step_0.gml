@@ -1,5 +1,3 @@
-//debug do estado atual
-show_debug_message(actualState);
 //checando se n estou no estado 4
 if (actualState != "state4") {
 	//usando a sprite original

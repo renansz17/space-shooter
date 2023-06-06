@@ -1,7 +1,7 @@
  //fazendo ele ir para baixo
 vspeed = 4;
 //chance de dropar um powerup
-dropChance = 20;
+dropChance = 25;
 //iniciando o alarme
 alarm[0] = random_range(1, 3) * room_speed;
 
@@ -19,6 +19,9 @@ enemy_shooting = function () {
 	//se ele entrar na tela, ele pode atirar
 	if (y > 0) {
 		instance_create_layer(x - 3, y + sprite_height/3,"Shoots", objSquidShoot);
+		
+		//som do tiro
+		audio_play_sound(sfx_laser1, 1, false);
 	}
 }
 //criando o metódo para dropar um powerUp

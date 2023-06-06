@@ -1,3 +1,5 @@
+//tocando a musica do boss
+audio_play_sound(snd_boss, 0, 1);
 /*
 Estado 1 = parado dando tiro
 Estado 2 = movendo dando tiro 1
@@ -18,7 +20,7 @@ waitingState = stateDelay;
 //velocidade horizontal do boss
 speedX = 3;
 //limite de vida
-maxLife = 100;
+maxLife = 1500;
 //vida do boss
 life = maxLife;
 //dando a sprite padrão para o boss
@@ -26,10 +28,12 @@ life = maxLife;
 
 //variavel para ver se o boss tem minions
 hasMinions = false;
-bossDeathSeq = noone;
 //metódo parar criar o tiro 1
 createShootTwo = function () {
 	instance_create_layer(x, y + 80, "Shoots", objSecondEnemyShoot);
+	
+	//som do tiro
+	audio_play_sound(sfx_laser1, 1, false);
 }
 ///metódo para criar o tiro 2
 ///@method create_shoot_two(true_right_false_left);
@@ -40,6 +44,8 @@ createShootOne = function (right) {
 	//criando os tiros
 	instance_create_layer(x + valueToAddInX, y + 10, "Shoots", objSquidShoot);
 	
+	//som do tiro
+	audio_play_sound(sfx_laser1, 1, false);
 }
 
 //metódo do estado 1
