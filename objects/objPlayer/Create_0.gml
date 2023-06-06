@@ -130,7 +130,7 @@ createShield = function () {
 	shield.target = id;
 	//diminuindo a quantidade de escudos
 	//avisando q o escudo é o meu escudo
-	myShield = shield;
+	shield.myShield = shield;
 	shields--;
 
 }
