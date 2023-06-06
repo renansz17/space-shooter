@@ -1,4 +1,6 @@
 //reiniciando a room se o player morrer
 if (gameOverSeq) {
-	room_restart();
+	var transition = instance_create_layer(x, y, layer, objTransition);
+	transition.destiny = rmStart;
+
 }

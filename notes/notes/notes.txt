@@ -263,11 +263,71 @@
 			26.8.16.2 - fazendo com o que minion cheque se foi criadode outro minion, (se sim ele muda o y em 60 ) feito
 			26.8.16.3 - fazendo com que ele crie só uma vez os minions - feito
 			26.8.16.4 - fazendo ele criar minions saindo do estado quatro - feito
-			26.8.16.5 - fazendo ele chegar no estado 4 se a vida atual for menor ou metade do que a vida total
-		
-		
-	varios estados do boss
-	fase invulneravel com recuperação de vida
-	fase que cria minions agressivos
+			26.8.16.5 - fazendo ele chegar no estado 4 se a vida atual for menor ou metade do que a vida total - feito
+
 
 27 - animação da chega do boss
+	27.1 - importando as sprites -  feito
+	27.2 - criando a animação - feito 
+	27.3 - destruindo a sequence ao final da animação - feito
+	27.4 - criando o boss depois de destruir a sequencia - feito
+
+28 - animação de morte do boss
+	28.1 - deixar animação com 10segundos - feito
+	28.2 - criando varias animações de explosão pelo boss - feito 
+	28.3 - fazendo o boss sair da tela - feito
+	28.4 - fazendo o boss criar a sequencia quando ele morrer - feito
+	28.5 - criando a animação na posição correta - feito
+	
+29 - fazer o control criar o boss quando chegar no level 10 - feito
+	29.1 - criando inimigos se ainda nao estou no level 10 - feito
+	29.2 - criando boss se estou no level 10 - feito
+	29.3 - garantindo q eu crie o boss 1 vez - feito
+
+30 - criando a animação de vitória do player
+	30.1 - criar a animação - feito
+	30.2 - quando o boss morrer e a animação dele acabar, fazer a animaçaõ do player instanciar  - feito
+		30.2.1 - criar a função que executa a sequencia do player - feito
+	30.3 - destruir o player e garantir que n apareça a tela de game over - feito
+		30.3.1 - avisando para n executar o evento destroy - feito
+		30.3.2 - variavel de controle para impedir o game over se o jogador vencer - feito
+	30.4 -fazendo a transição quando acabar a sequence
+		30.4.1 - criando função da transição - feito
+31 - criar tela inicial do jogo
+	31.1 - criar a room da tela inicial - feito
+	31.2 - criar os botões
+		31.2.1 - fazendo o botão mudar de cor - feito
+		31.2.2 - desenhar texto no botão - feito - feito
+		31.2.3 - permitindo textos ser variados entre botões - feito
+	31.3 - ao clicar no botão, instancia o objeto transição com o destino desejado - feito
+	31.4 - fazendo que ao morrer e apertar enter o jogador volte para a tela inicial 
+
+32 - criar transição
+	32.1 - criando o objeto transição - feito
+	32.2 - fazendo ele escurecer a tela
+		32.2.1 - fazendo ele desenhar primeiro transparente e depois escuro - feito
+		32.2.2 - se o alpha for menor que 1, então o alpha aumenta - feito
+	32.3 - fazendo ele mudar de room depois q tela estiver escura
+	32.4 - deixando a tela clara novamente - feito
+		32.4.1 - deixar a tela clara ao trocar de room - feito
+		32.4.2 - avisando q ele trocou de room - feito
+	32.5 -se troquei de room e alpha for mairo q 0, eu me destruo - feito
+	32.6 - personalizando o destino - feito
+
+33 - criando a tela de pontuação
+	33.1 - criando um sistema de pontos que guarda as pontuações  - feito
+		33.1.1 - criando uma room para inicializar as variaveis globais - feito
+		33.1.2 - garantindo que o viewport da room está correto - feito
+		33.1.3 - criando as variaveis - feito
+		33.1.4 - indo para a proxima tela - feito
+	33.2 - debug para variaveis globais - feito
+	33.3 - salvando os pontos na variavel global de max points se os pontos forem maiores do q o max points - feito
+		33.3.1 - quando o jogo terminar ( a partida ), checar se pontos maiores doq maxPoints e se sim passar os pontos para a variavel global - feito 
+	33.4 - sempre q um inimigo morrer, adicionar mais 1 pra variavel global de inimigos mortos - feito
+	33.5 - sempre que o player morrer, adicionar mais 1 ponto pra variavel de pontos - feito
+	33.6 - ganhando pontos ao matar o boss - feito
+	33.7 - garanti q o objeto control atualize os pontos - feito
+	33.8 - colocar as pontuações na tela de pontuação - feito
+	33.9 - criar um botão para voltar - feito
+	33.10 - criando uma fonte para ui - feito
+	33.11 - fazendo na hora da exibição, ele crescer até a maior pontuação - feito

@@ -14,10 +14,14 @@ points = 0;
 //iniciando o sistema de level
 level = 1;
 //quantos pontos precisa para o proximo level
-nextLevel = 100;
+nextLevel = 1;
 
 //variavel de game over
 gameOverSeq = noone;
+
+bossCreated = false;
+
+levelCompleted = false;
 
 ///@method addPoints(pointsToAdd)
 addPoints = function (pointsToAdd) {

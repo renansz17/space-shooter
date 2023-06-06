@@ -1,0 +1,2 @@
+text = "START"
+destiny = rmGame;

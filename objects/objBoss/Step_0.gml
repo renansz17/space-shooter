@@ -41,3 +41,8 @@ else if (actualState == "state4") {
 	//código do state 4
 	state4();
 }
+
+// fazendo o boss morrer 
+if (life == 0) {
+	instance_destroy();
+}

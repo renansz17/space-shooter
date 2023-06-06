@@ -18,7 +18,7 @@ waitingState = stateDelay;
 //velocidade horizontal do boss
 speedX = 3;
 //limite de vida
-maxLife = 2000;
+maxLife = 100;
 //vida do boss
 life = maxLife;
 //dando a sprite padrão para o boss
@@ -26,7 +26,7 @@ life = maxLife;
 
 //variavel para ver se o boss tem minions
 hasMinions = false;
-
+bossDeathSeq = noone;
 //metódo parar criar o tiro 1
 createShootTwo = function () {
 	instance_create_layer(x, y + 80, "Shoots", objSecondEnemyShoot);

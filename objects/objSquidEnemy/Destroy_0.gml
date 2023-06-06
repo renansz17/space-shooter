@@ -5,6 +5,9 @@ instance_create_layer(x, y, layer, objExplosion);
 //fazendo ele ganhar pontos só se o objeto existir
 addingPoints(destroyPoints);
 
+//somando quantos inimigos morreram
+global.maxEnemiesDie++;
+
 //dropando o item
 dropPowerUp(dropChance);
 

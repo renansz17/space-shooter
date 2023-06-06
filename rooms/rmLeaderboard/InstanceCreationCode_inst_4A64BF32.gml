@@ -1,0 +1,2 @@
+text = "Voltar"
+destiny = rmStart;

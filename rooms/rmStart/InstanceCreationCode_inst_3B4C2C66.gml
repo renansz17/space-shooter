@@ -1,0 +1,2 @@
+text = "POINTS";
+destiny = rmLeaderboard;
